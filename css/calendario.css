@@ -1,0 +1,197 @@
+/*-----SWIPPER------*/
+body{
+    background-color: var(--color4);
+}
+
+.m2{
+  margin: 20px; 
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  cursor: pointer; 
+}
+
+.m2 div{
+  display: flex;
+}
+
+.m2 svg path{
+    fill: var(--color2);
+}
+
+.m2 svg{
+    transform: rotate(90deg);
+}
+
+.swiper {
+      width: 90%;
+      height: 80px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: .8em;
+      padding-top: 25px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      align-content: center;
+      font-weight: bold;
+    }
+
+    .swiper-slide img {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+.tarjeta-c{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.tablac{
+  font-size: .6em;
+}
+
+.tablac td{
+  border-bottom: 2px solid var(--color2);
+  border-right: 2px solid var(--color2);
+  text-align: center;
+}
+
+.lista{
+  display: grid;
+}
+
+.tarjeta{
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.lista input{
+  color: var(--color2);
+}
+
+#checkbox:checked {
+  background-color: white;
+}
+
+.active{
+  background-color: var(--color2);
+  color: white;
+}
+
+.tarjetades{
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 12px 5px;
+  border-radius: 30px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tarjetades img{
+  width: 40px;
+  margin-top: -10px;
+}
+
+.t2, .t3{
+  display: none;
+}
+
+.content2{
+  display: none;
+  margin-bottom: 100px;
+}
+
+
+.tde{
+  border: 1px solid var(--color2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.tabladias{
+  border-spacing: 10px;
+  font-size: .8em;
+}
+
+.centrado{
+  display: grid;
+  justify-items: center;
+}
+
+[class^="tarjeta-dias"] {
+  display: none;
+}
+
+.visible{
+  display: initial;
+}
+
+.btn-calendario{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.btn-calendario p{
+  border: 2px solid var(--color2);
+  border-radius: 20px;
+  padding: 0 7px;
+}
+
+.calendario{
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  display: none;
+}
+
+.sub-calendario{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-weight: bold;
+}
+
+.calendario td{
+  border: 2px solid var(--color2);
+  border-radius: 10px;
+  padding: 5px 6px;
+}
+
+.t-calendario{
+  border-spacing: 20px;
+  font-size: .7em;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.bdiario{
+  width: 90%;
+  margin: 0 auto;
+}
+.btn-rdiario{
+  background-color: rgba(0,0,0, 0);
+  border: 3px solid var(--color2);
+  border-radius: 10px;
+  padding: 3px 12px;
+  margin-top: 20px;
+}

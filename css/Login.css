@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --color1: #FAF5E7;
+  --color2: #F3B720;
+  --color3: #F9DB8F;
+  --color4: #FBEABE;
+  --tipografía1: 'Poppins', sans-serif;
+}
+
+#back-button {
+  position: absolute;
+  left: 5%;
+  top: 13%;
+  transform: translateY(-50%);
+  font-size: 80px;
+  color: #F3B720;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+  .titulo {
+    font-size: 36px;
+    color: #F3B720;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+    color: #080808;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.boton-google, .boton-facebook, .boton-gmail, .boton-iphone {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-google {
+  background-color: #ffff;
+}
+
+.boton-facebook {
+  background-color: #0866ff;
+}
+
+.boton-gmail {
+  background-color: #f3b431;
+}
+
+.boton-iphone {
+  background-color: #ffff;
+}
+
+.material-symbols-outlined {
+  font-size: 40px !important;
+  color: #000000;
+}
+
+.material-symbols-outlined.google {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  background-image: url('https://www.google.com/favicon.ico');
+  background-size: 48px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  text-indent: -9999px;
+}
+
+.material-symbols-outlined.facebook {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  background-image: url('https://www.facebook.com/favicon.ico');
+  background-size: 48px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  text-indent: -9999px;
+}
+
+.material-symbols-outlined.gmail {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  background-image: url('https://www.gmail.com/favicon.ico');
+  background-size: 48px 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  text-indent: -9999px;
+}
+
+.material-symbols-outlined.iphone {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70px;
+  background-image: url('https://www.apple.com/favicon.ico');
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  text-indent: -9999px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.texto-entrar {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.entrar {
+  text-decoration: none;
+  color: #f3b431;
+  font-family: 'Poppins', sans-serif;
+}
+
+.entrar:hover {
+  color: #f3b431;
+}

@@ -1,0 +1,326 @@
+/*MENÚ 2*/
+
+.m2{
+    margin: 20px; 
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    cursor: pointer;  
+  }
+
+.m2 svg path{
+    fill: var(--color2);
+}
+
+.m2 svg{
+    transform: rotate(90deg);
+}
+
+/*TARJETA*/
+
+
+.t2-2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.t1 {
+  font-size: 12px;
+  display: grid;
+  margin-left: 40px;
+  color: rgb(0, 0, 0);
+  opacity: 50%;
+}
+.dosis {
+  font-size: 17px;
+  display: grid;
+  margin-left: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+}
+.t2-2 p{
+    padding: 15px 20px;
+    border: 3px solid var(--color2);
+    border-radius: 100%;
+}
+
+.t2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.Dosisagregar{
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.comidas{
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 155px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.fechadeinicio {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.seleccionardias {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+}
+.fechadefinal {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.hora{
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.boton-container {
+  text-align: center;
+}
+
+#finalizar-btn {
+  background-color: #f3b720;
+  border: none;
+  color: white;
+  padding: 13px 60px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 78px;
+}
+.circulo {
+  background-color:transparent; 
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.circulo:hover,
+.circulo:focus {
+  background-color: #f3b720; 
+}
+
+.seleccionardias span {
+  margin-right: 70px;
+}
+.swiper {
+  width: 90%;
+  height: 80px;
+}
+.swiper {
+  width: 90%;
+  height: 80px;
+}
+
+.dias-semana {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.boton-container {
+  text-align: center;
+}
+.btn-dia {
+  padding: 17px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-right: 0px;
+  transition: background-color 0.2s ease;
+  outline: none;
+}
+
+.btn-dia.selected,
+.btn-dia:active,
+.btn-dia.selected:active { /* Agregamos el estado :active y la clase .selected:active para que el botón cambie de color al ser presionado y se mantenga en ese color */
+  background-color: #ffc107;
+  color: #fff;
+}
+.lista{
+  display: grid;
+}
+.dias{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dias div{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: var(--color2);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.dias img{
+  margin-top: 15px;
+}
+.dest2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.encabezado1m{
+  margin: 0 auto;
+}
+.barra{
+    width: 90%;
+    height: 4px;
+    background-color:#f3b720;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#pr2{
+    background-color: var(--color2);
+    height: 100%;
+    width: 80%;
+}
+
+
+#pr3{
+    background-color: var(--color2);
+    height: 100%;
+    width: 60%;
+}
+
+.t2 > div{
+    margin-bottom: 10px;
+}
+.categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.categorias div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: var(--color2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.categorias img{
+    margin-top: 15px;
+}
+
+.p1{
+    color: white;
+}
+
+.t2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.p2-1{
+    background-color: var(--color2);
+    padding: 20px 2px;
+    border-radius: 15px;
+}
+
+.p2-2{
+    background-color: var(--color2);
+    padding: 5px 2px;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+  .v-active {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center; /* Agregar esta línea */
+  }
+  .sub-d-center{
+    background-color: var(--color1);
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+  }

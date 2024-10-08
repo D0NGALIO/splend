@@ -1,0 +1,246 @@
+.m2{
+    margin: 20px; 
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    cursor: pointer;  
+  }
+
+.m2 svg path{
+    fill: var(--color2);
+}
+
+.m2 svg{
+    transform: rotate(90deg);
+}
+
+/*TARJETA*/
+
+.tarjeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: white;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+.t1, .t2-2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.t1 p{
+    padding: 35px 40px;
+    border: 3px solid var(--color2);
+    border-radius: 100%;
+}
+
+.t2-2 p{
+    padding: 15px 20px;
+    border: 3px solid var(--color2);
+    border-radius: 100%;
+}
+
+.t2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.dest2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.barra{
+    width: 100%;
+    height: 4px;
+    background-color: var(--color3);
+}
+
+#pr1{
+    background-color: var(--color2);
+    height: 100%;
+    width: 50%;
+}
+
+#pr2{
+    background-color: var(--color2);
+    height: 100%;
+    width: 30%;
+}
+
+
+#pr3{
+    background-color: var(--color2);
+    height: 100%;
+    width: 60%;
+}
+
+.t2 > div{
+    margin-bottom: 10px;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.categorias div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: var(--color2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.categorias img{
+    margin-top: 15px;
+}
+
+.p1{
+    color: white;
+}
+
+.tarjeta2{
+    display: grid;
+    gap: 20px;
+    background-color: white;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.sub-tarjeta2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+
+.t2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.p2-1{
+    background-color: var(--color2);
+    padding: 20px 2px;
+    border-radius: 15px;
+}
+
+.p2-2{
+    background-color: var(--color2);
+    padding: 5px 2px;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+.btn-dieta{
+    background-color: var(--color2);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+
+  .d,.mm2,.alm,.mt,.cena {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v-active {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center; /* Agregar esta línea */
+  }
+  
+  .sub-d,.sub-d2,.sub-d3,.sub-d4,.sub-d5{
+    display: grid;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-d-center{
+    background-color: var(--color1);
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+
+  .buscar{
+    background-color: white;
+    padding: 15px;
+    padding-right: 70px;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+  }
+
+  .buscar img{
+    width: 20px;
+  }
+
+  .alimento{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 20px 0;
+    border-bottom: 3px solid var(--color2);
+    align-items: center;
+  }
+
+  .alimento img{
+    width: 30px;
+  }
+
+  #btn-d2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .cerrar,.cerrar2,.cerrar3,.cerrar4,.cerrar5{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--color3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+  }
+  .pop1,.pop2,.pop3,.pop4,.pop5{
+    cursor: pointer;
+  }

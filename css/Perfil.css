@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+:root {
+  --color1: #FAF5E7;
+  --color2: #F3B720;
+  --color3: #F9DB8F;
+  --color4: #FBEABE;
+  --tipografía1: 'Poppins', sans-serif;
+}
+
+#back-button {
+  position: absolute;
+  left: 5%;
+  top: 13%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #F3B720;
+}
+.titulo-container {
+  width: 85%; /* Agregado para que el título y subtítulo queden a la izquierda con un borde del 15% */
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20vh; /* Agrega un margen superior para mover el título y subtítulo hacia abajo */
+  flex-grow: 1; /* Agrega un estilo para que el contenedor ocupe el espacio disponible */
+}
+.container {
+  /* Estilos para el contenedor */
+  width: 100%;
+  height: 100vh; /* Agregado para que ocupe toda la altura de la pantalla */
+  margin: 0; /* Quitado el margen para que ocupe toda la pantalla */
+  padding: 40px;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+  display: flex; /* Agregado para que los elementos se centren verticalmente */
+  flex-direction: column; /* Agregado para que los elementos se centren verticalmente */
+  align-items: center; /* Agregado para que los elementos se centren horizontalmente */
+  justify-content: center; /* Agregado para que los elementos se centren verticalmente */
+  flex-grow: 1; /* Agregado para que ocupe todo el espacio disponible */
+}
+.titulo-container {
+  width: 85%; /* Agregado para que el título y subtítulo queden a la izquierda con un borde del 15% */
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 0vh; /* Agrega un margen superior para mover el título y subtítulo hacia abajo */
+  flex-grow: 1; /* Agrega un estilo para que el contenedor ocupe el espacio disponible */
+}
+
+.titulo {
+  font-size: 36px;
+  color: #F3B720;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subtitulo {
+  font-size: 16px;
+  color: #F3B720;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+#profile-image-preview {
+  width: 30vh;
+  height: 30vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40vh); /* Agregado para que se mueva hacia arriba */
+  border-radius: 10px;
+  border-color: #F3B720;
+}
+
+#profile-image-preview img {
+  display: none;
+}
+
+#profile-image-preview img[src] {
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.datos {
+  margin-top: -75%; /* Agrega un margen superior para separar del recuadro de imagen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.datos label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #F3B720;
+}
+
+.datos input[type="number"] {
+  width: 65%; /* Ancho del campo de texto */
+  height: 60px;
+  padding: 10px;
+  border: 1px solid #F3B720;
+  border-radius: 5px;
+}
+.container .titulo-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.boton-finalizar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#finalizar-button {
+  background-color: #F3B720;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#finalizar-button:hover {
+  background-color: #F3B720;
+}
